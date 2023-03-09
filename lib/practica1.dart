@@ -71,6 +71,7 @@ class _Practica1 extends State<Practica1>{
                 Padding(
                   padding: EdgeInsets.all(60),
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     controller: cantidad,
                     decoration: InputDecoration(labelText: "Cantidad (gr)"),
                   ),
